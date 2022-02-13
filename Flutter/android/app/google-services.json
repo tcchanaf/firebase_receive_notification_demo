@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "936360862673",
+    "project_id": "test-notification-gateway",
+    "storage_bucket": "test-notification-gateway.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936360862673:android:90f04467ddbf012fb0b6f0",
+        "android_client_info": {
+          "package_name": "com.example.notification_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936360862673-m02miigdg0d5s6qddtgb6m7rot62pppo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmyCE7I2SQJMWu3ChMznpYDH1ekKDPReI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936360862673-m02miigdg0d5s6qddtgb6m7rot62pppo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936360862673:android:68cb5fbdb498d702b0b6f0",
+        "android_client_info": {
+          "package_name": "com.example.notification_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936360862673-6615f0jedoucnihd0tenj3op9sckh7n0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notification_project",
+            "certificate_hash": "1683b095e700190a82bbf73efa2a0a4fd3f6ff24"
+          }
+        },
+        {
+          "client_id": "936360862673-m02miigdg0d5s6qddtgb6m7rot62pppo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmyCE7I2SQJMWu3ChMznpYDH1ekKDPReI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936360862673-m02miigdg0d5s6qddtgb6m7rot62pppo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
