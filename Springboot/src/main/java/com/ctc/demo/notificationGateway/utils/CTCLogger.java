@@ -6,8 +6,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-public class GatewayLogger {
-	public static final Logger log = LogManager.getLogger(GatewayLogger.class);
+public class CTCLogger {
+	public static final Logger log = LogManager.getLogger(CTCLogger.class);
 
 	public static void info(String pattern, Object... params) {
 		if (params != null && params.length > 0)

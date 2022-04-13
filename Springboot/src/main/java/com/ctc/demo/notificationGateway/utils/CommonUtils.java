@@ -35,12 +35,12 @@ public class CommonUtils {
 			while ((line = reader.readLine())!= null) {
 				output.append(line + "\n");
 			}
-			GatewayLogger.info("runCommand, {0} output: \n    {1}", command, output.toString());
-			GatewayLogger.info("runCommand, {0} exitCode: \n    {1}", command, exitCode);
+			CTCLogger.info("runCommand, {0} output: \n    {1}", command, output.toString());
+			CTCLogger.info("runCommand, {0} exitCode: \n    {1}", command, exitCode);
 		} catch (InterruptedException e) {
-			GatewayLogger.error("the commands: {0} is interrupted by {1}", command, e.getMessage());
+			CTCLogger.error("the commands: {0} is interrupted by {1}", command, e.getMessage());
 		} catch (IOException e) {
-			GatewayLogger.error("the commands: {0} failed, caused by {1}", command, e.getMessage());
+			CTCLogger.error("the commands: {0} failed, caused by {1}", command, e.getMessage());
 		}
 	}
 
