@@ -39,8 +39,8 @@
                 <!-- <Logger name="org.springframework.web" level="debug" /> -->
                 <!-- <Logger name="org.springframework.web.servlet" level="debug" /> -->
                 <!-- <Logger name="org.hibernate.type" level="trace" /> -->
-                <Logger name="com.iaspec.crpgateway.util.SystemLogger" level="debug" />
-                <Logger name="com.iaspec.crpgateway.util" level="info" />
+                <Logger name="com.ctc.demo.notificationGateway.utils.CTCLogger" level="debug" />
+                <Logger name="com.ctc.demo.notificationGateway.utils" level="info" />
                 <logger name="org.springframework" level="info" />
                 <Root level="info">
                         <AppenderRef ref="CONSOLE" />
